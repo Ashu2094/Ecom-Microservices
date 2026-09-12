@@ -202,6 +202,9 @@ importers:
       '@hono/clerk-auth':
         specifier: ^3.1.1
         version: 3.1.1(hono@4.12.32)(react-dom@19.1.0(react@19.2.0))(react@19.2.0)
+      '@repo/order-db':
+        specifier: workspace:*
+        version: link:../../packages/order-db
       fastify:
         specifier: ^5.5.0
         version: 5.11.0
@@ -209,6 +212,9 @@ importers:
         specifier: ^4.12.32
         version: 4.12.32
     devDependencies:
+      '@repo/types':
+        specifier: workspace:*
+        version: link:../../packages/types
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
@@ -234,6 +240,9 @@ importers:
         specifier: ^4.12.32
         version: 4.12.32
     devDependencies:
+      '@repo/types':
+        specifier: workspace:*
+        version: link:../../packages/types
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
@@ -262,6 +271,9 @@ importers:
         specifier: ^5.0.3
         version: 5.2.1
     devDependencies:
+      '@repo/types':
+        specifier: workspace:*
+        version: link:../../packages/types
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
@@ -339,6 +351,12 @@ importers:
       prisma:
         specifier: 6.19.3
         version: 6.19.3(typescript@5.9.2)
+
+  packages/types:
+    devDependencies:
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
 
   packages/typescript-config: {}
 
