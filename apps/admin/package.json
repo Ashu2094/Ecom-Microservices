@@ -49,6 +49,7 @@
     "@types/react-dom": "^19",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+  
     "tailwindcss": "^4",
     "typescript": "^5"
   }
